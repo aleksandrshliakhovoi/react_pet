@@ -2,7 +2,7 @@ import classes from './Profile.module.css'
 
 const Profile = () => {
   return (
-    <div className='Profile_content__2A0wl'>
+    <div className={classes.content}>
       <div>
       <img src="https://creativepro.com/wp-content/uploads/2019/05/imagetext01.jpg" className="header-img"/>
       </div>
@@ -16,10 +16,10 @@ const Profile = () => {
           New post
         </div>
         <div className='posts'>
-          <div className='Profile_item__10O_i'>
+          <div className={classes.item}>
             post 1
           </div>
-          <div className='Profile_item__10O_i'>
+          <div className={classes.item}>
             post 2
           </div>
         </div>

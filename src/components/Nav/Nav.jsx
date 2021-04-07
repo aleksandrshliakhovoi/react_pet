@@ -2,20 +2,20 @@ import classes from './Nav.module.css'
 
 const Nav = () => {
   return (
-    <nav className='Nav_nav__2k3D9'>
-      <div className='Nav_item__18bSP a'>
+    <nav className={classes.nav}>
+      <div className={classes.item}>
        <a href="">Profile</a> 
       </div>
-      <div className='Nav_item__18bSP a'>
+      <div className={classes.item}>
       <a href="">Messages</a> 
       </div>
-      <div className='Nav_item__18bSP a'>
+      <div className={classes.item}>
       <a href="">News</a> 
       </div>
-      <div className='Nav_item__18bSP a'>
+      <div className={classes.item}>
       <a href="">Music</a> 
       </div>
-      <div className='Nav_item__18bSP a'>
+      <div className={classes.item}>
       <a href="">Settings</a> 
       </div>
     </nav>
