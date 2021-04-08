@@ -1,34 +1,25 @@
-import classes from './Profile.module.css'
+import classes from './MyPosts.module.css'
+import Post from './Post/Posts'
 
-const Profile = () => {
+const MyPosts = () => {
   return (
-    <div className={classes.content}>
-      <div>
-      <img src="https://creativepro.com/wp-content/uploads/2019/05/imagetext01.jpg" className="header-img"/>
-      </div>
-      <div>
-        ava + desc
-        <img src="https://www.mirserpen.ru/media/2014/11/210-450x297.jpg" alt=""/>
-      </div>
+    <div MyPost={classes.content}>
       <div>
         My posts
         <div>
-          New post
+         <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button>Add post</button>
+        <button>Remove</button>
         </div>
         <div className='posts'>
-          <div className={classes.item}>
-            post 1
-          </div>
-          <div className={classes.item}>
-            post 2
-          </div>
+          <Post />
+          <Post />
+          <Post />
         </div>
-      </div>
-      <div>
       </div>
     </div>
   )
 }
 
-export default Profile
+export default MyPosts
 
