@@ -3,7 +3,7 @@ import classes from './Profile.module.css'
 
 const Profile = () => {
   return (
-    <div className={classes.content}>
+    <div>
       <div>
       <img src="https://creativepro.com/wp-content/uploads/2019/05/imagetext01.jpg" className="header-img"/>
       </div>
