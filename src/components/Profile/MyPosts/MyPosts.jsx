@@ -3,12 +3,16 @@ import Post from './Post/Posts'
 
 const MyPosts = () => {
   return (
-    <div MyPost={classes.content}>
+    <div className={classes.postBlock}>
       <div>
-        My posts
+        <h3>My posts</h3>
         <div>
+          <div>
          <textarea name="" id="" cols="30" rows="10"></textarea>
+         </div>
+         <div>
         <button>Add post</button>
+        </div>
         <button>Remove</button>
         </div>
         <div className={classes.posts}>
